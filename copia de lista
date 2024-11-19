@@ -1,0 +1,14 @@
+#maneira errada de copiar um alista
+l = [1,2,3,4,5]
+v = l
+print(l)
+print(v)
+v[0] = 6
+print(v)
+print(l)
+
+# maneira corret de fazer
+
+vesao = l[:]
+vesao[0] = 0
+print(vesao)
